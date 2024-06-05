@@ -1,0 +1,14 @@
+{
+  "private": "true",
+  "name": "jico-project",
+  "version": "1.0.0",
+  "author": "Iacopo Filiberto",
+  "license": "MIT",
+  "description": "A project to learn how to write a frontend framework",
+  "workspaces": [
+    "packages/runtime"
+  ],
+  "scripts": {
+    "serve:examples": "npx http-server . -o ./examples/*"
+  }
+}
